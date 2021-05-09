@@ -33,6 +33,11 @@ public class TestCalculadora {
                 System.out.println("Operación inválida");
         }
         
+        PruebaRama p = new PruebaRama();
+        
+        System.out.println(p.Despedida());
+        
+        
         
     }
     public static int sum(int x, int y)
