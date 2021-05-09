@@ -18,16 +18,16 @@ public class TestCalculadora {
         
         switch (choose){
         case 1:
-            System.out.println(sum( num1,num2));
+            System.out.println("El resultado es "+sum( num1,num2));
             break;
         case 2:
-            System.out.println(res( num1,num2));
+            System.out.println("El resultado es "+res( num1,num2));
             break;     
         case 3:
-            System.out.println(mult( num1,num2));
+            System.out.println("El resultado es "+mult( num1,num2));
             break;
         case 4:
-            System.out.println(div( num1,num2));
+            System.out.println("El resultado es "+div( num1,num2));
             break;
         default:
                 System.out.println("Operación inválida");
